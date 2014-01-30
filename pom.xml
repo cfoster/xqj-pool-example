@@ -1,0 +1,55 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>example</groupId>
+  <artifactId>example</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>net.xqj</groupId>
+      <artifactId>xqj-connection-pool</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>net.xqj</groupId>
+      <artifactId>basex-xqj</artifactId>
+      <version>1.3.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.basex</groupId>
+      <artifactId>basex</artifactId>
+      <version>7.8-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>simple-jndi</groupId>
+      <artifactId>simple-jndi</artifactId>
+      <version>0.11.4.1</version>
+    </dependency>
+                
+  </dependencies>
+
+  <repositories>
+
+    <repository>
+      <id>xqj.net</id>
+      <url>http://xqj.net/maven</url>
+    </repository>
+
+    <repository>
+      <id>basex</id>
+      <name>BaseX Maven Repository</name>
+      <url>http://files.basex.org/maven</url>
+    </repository>
+
+  </repositories>
+
+</project>

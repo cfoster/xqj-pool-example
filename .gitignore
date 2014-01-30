@@ -1,0 +1,27 @@
+# use glob syntax.
+syntax: glob
+*.class
+*~
+*.bak
+*.off
+*.old
+*.orig
+*.txt
+.DS_Store
+
+# Licence File
+licence.xml
+
+# building
+/target
+
+# Eclipse
+.classpath
+.project
+.settings
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+*.idea
