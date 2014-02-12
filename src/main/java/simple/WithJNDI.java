@@ -1,3 +1,5 @@
+package simple;
+
 import net.xqj.basex.local.BaseXConnectionPoolXQDataSource;
 import net.xqj.pool.PooledXQDataSource;
 
@@ -8,7 +10,7 @@ import javax.xml.xquery.XQConnection;
 import javax.xml.xquery.XQDataSource;
 import javax.xml.xquery.XQResultSequence;
 
-public class Test
+public class WithJNDI
 {
   static final void ApplicationServerCode() throws Exception
   {
